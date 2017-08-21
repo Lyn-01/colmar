@@ -24,7 +24,7 @@ header {
   color: rgb(145, 155, 154)
 }
 
-header span strong {
+.logo-name span strong {
   font-weight: bold;
   color: rgb(0, 0, 0);
 }
@@ -43,4 +43,40 @@ nav ul li {
   display: none;
 }
 
-/* Header mobile */
+/* Header mobile and smaller screens */
+
+@media only screen and (max-width: 560px) {
+
+  nav.mobile {
+    width: 100%;
+    display: flex;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+
+  nav ul li {
+    list-style: none;
+    padding: 0 1rem 0 1rem;
+  }
+
+  .logo-name {
+    display: none;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+}
+
+/* Banner */
+
+.banner {
+  background-color: rgb(145, 155, 154);
+  width: 100%
+}
