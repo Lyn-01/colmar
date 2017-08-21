@@ -1,0 +1,46 @@
+/* General styling */
+
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  border-bottom: 1px solid black; /*later weghalen*/
+}
+
+.logo-name {
+  padding-left: 1.5rem;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  color: rgb(145, 155, 154)
+}
+
+header span strong {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+nav ul {
+  display: flex;
+  padding-right: 0.5rem;
+}
+
+nav ul li {
+  list-style: none;
+  padding-right: 1rem;
+}
+
+.mobile {
+  display: none;
+}
+
+/* Header mobile */
