@@ -13,7 +13,6 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 4rem;
-  border-bottom: 1px solid black; /*later weghalen*/
 }
 
 .logo-name {
@@ -77,6 +76,117 @@ nav ul li {
 /* Banner */
 
 .banner {
-  background-color: rgb(145, 155, 154);
-  width: 100%
+  background-color: rgb(192, 195, 198);
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.banner img {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+
+h1, h3, h2 {
+  color: rgb(50, 51, 53);
+}
+
+h1, h2 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+h3 {
+  padding: 1.5rem 0;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+  color: rgb(247, 249, 252);
+}
+
+#button {
+  background-color: rgb(50, 51, 53);
+  text-align: center;
+  width: auto;
+  padding: 0.5rem 0;
+}
+
+/* Banner Media queries
+
+flex-wrap: wrap;
+flex-direction: column; */
+
+/* Section 1 */
+
+.section {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.left {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 2rem 1.5rem;
+  width: 60%;
+}
+
+.section img{
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+}
+
+h5 {
+  margin: 2rem 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.item img {
+  width: 35%;
+  height: auto;
+  margin-right: 1.5rem;
+  margin-left: 1rem;
+}
+
+.description {
+  display: block;
+  width: 65%;
+}
+
+.description p {
+  padding: 0.5rem 0;
+  margin-bottom: 0.5rem;
+}
+
+.description a {
+  color: rgb(6, 69, 173);
+  text-decoration: underline;
+}
+
+.item:last-child{
+  background-color: gray;
+}
+
+.item:first-child{
+  margin-top: 1rem;
 }
