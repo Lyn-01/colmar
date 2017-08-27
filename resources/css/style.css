@@ -6,7 +6,7 @@ html {
 }
 
 h1, h3, h2 {
-  color: rgb(50, 51, 53);
+  color: rgb(74, 74, 74);
 }
 
 h1, h2 {
@@ -23,6 +23,7 @@ h3 {
   padding: 1.1rem 0;
   font-size: 1.5rem;
   line-height: 1.5rem;
+  font-weight: 500;
 }
 
 h4 {
@@ -101,7 +102,7 @@ nav ul li {
 /* Banner */
 
 .banner {
-  background-color: rgb(192, 195, 198);
+  background-color: rgb(216, 216, 216);
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
@@ -119,7 +120,7 @@ nav ul li {
 
 .right {
   width: 40%;
-  border-left: 1px solid rgb(192, 195, 198);
+  border-left: 1px solid rgb(216, 216, 216);
 }
 
 
@@ -163,13 +164,13 @@ h5 {
   display: flex;
   align-items: center;
   padding: 1rem 0;
-  border-top: 1px solid rgb(192, 195, 198);
+  border-top: 1px solid rgb(216, 216, 216);
   margin: 1px 0;
 }
 
 .item:first-child {
   border-top: none;
-  border-bottom: 1px solid rgb(192, 195, 198);
+  border-bottom: 1px solid rgb(216, 216, 216);
 }
 
 .item img {
@@ -194,7 +195,7 @@ h5 {
 }
 
 .item:last-child{
-  background-color: rgb(192, 195, 198);
+  background-color: rgb(216, 216, 216);
 }
 
 .item:first-child{
