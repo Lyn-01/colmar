@@ -30,6 +30,14 @@ h4 {
   color: rgb(247, 249, 252);
 }
 
+h6 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
 p, span {
   font-weight: 300;
   line-height: 1.5rem;
@@ -222,7 +230,7 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
+  margin: 0 4rem;
 }
 
 .course {
@@ -246,4 +254,30 @@ h5 {
 
 .description2 p {
   padding: 0.5rem 0;
+}
+
+/* Section 3 */
+
+.section3 {
+  background-color: rgb(243, 245, 245);
+}
+
+.section3 h1 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.content {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+}
+
+.section3 .right {
+  border:none;
+}
+
+.section3 .item {
+  border: none;
 }
