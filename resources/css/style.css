@@ -3,11 +3,10 @@
 html {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  color: rgb(74, 74, 74);
+  line-height: 1.4rem;
 }
 
-h1, h3, h2 {
-  color: rgb(74, 74, 74);
-}
 
 h1, h2 {
   font-size: 2rem;
@@ -20,15 +19,20 @@ h2 {
 }
 
 h3 {
-  padding: 1.1rem 0;
+  padding: 0.75rem 0;
   font-size: 1.5rem;
-  line-height: 1.5rem;
   font-weight: 500;
+  line-height: 1.5rem;
 }
 
 h4 {
   font-size: 1.1rem;
   color: rgb(247, 249, 252);
+}
+
+p, span {
+  font-weight: 300;
+  line-height: 1.5rem;
 }
 
 /* Header */
@@ -200,4 +204,46 @@ h5 {
 
 .item:first-child{
   margin-top: 1rem;
+}
+
+/* Section 2 */
+
+.section2 {
+  background-color: rgb(216, 216, 216);
+  width: 100%;
+}
+
+.section2 h1 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.course {
+   background-color: white;
+   width: 30%;
+   margin-right: 1rem;
+   margin-bottom: 1rem;
+}
+
+.course-image {
+  height: auto;
+  width: 100%;
+}
+
+.description2 {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1.5rem;
+  padding-right: 1rem;
+}
+
+.description2 p {
+  padding: 0.5rem 0;
 }
