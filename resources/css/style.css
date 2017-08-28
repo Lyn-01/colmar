@@ -78,7 +78,7 @@ p, span {
 }
 
 .left img {
-  background-position: center;
+  background-position: left;
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
@@ -122,11 +122,19 @@ nav ul li {
   display: none;
 }
 
-/* header mobile and smaller screens */
+/* header media queries smaller screens and mobile */
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 600px) {
 
-  nav.mobile {
+  .logo-name {
+    display: none;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
     width: 100%;
     display: flex;
   }
@@ -139,16 +147,7 @@ nav ul li {
   }
 
   nav ul li {
-    list-style: none;
     padding: 0 1rem 0 1rem;
-  }
-
-  .logo-name {
-    display: none;
-  }
-
-  .desktop {
-    display: none;
   }
 
 }
@@ -161,20 +160,57 @@ nav ul li {
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  height: auto;
+  min-height: 357px;
 }
 
 .box {
-  width: 64%;
+  width: 100%;
 }
 
-#button {
+.button {
   background-color: rgb(74, 74, 74);
   text-align: center;
   padding: 0.5rem 0;
+  width: 64%;
 }
 
-/* banner media queries */
+/* banner media queries smaller screens and mobile */
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+    margin: 0 0;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .right h1, h4 {
+    padding-left: 1rem;
+    display: flex;
+  }
+
+  .right h3 {
+    padding: 0 0 0 1rem;
+  }
+
+  .button {
+    margin: 1.5rem 0 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    background-color: rgb(155, 155, 155);
+    font-weight: 500;
+  }
+
+}
 
 /* section */
 
