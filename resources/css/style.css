@@ -177,6 +177,7 @@ nav ul li {
 /* banner media queries smaller screens and mobile */
 
 @media only screen and (max-width: 600px) {
+
   .banner {
     width: 100%;
     flex-wrap: wrap;
@@ -213,6 +214,7 @@ nav ul li {
 }
 
 /* section */
+
 
 .section {
   display: flex;
@@ -261,6 +263,31 @@ nav ul li {
 .item:first-child{
   margin-top: 1rem;
 }
+
+/* section media queries smaller screens and mobile */
+
+@media only screen and (max-width: 1047px) {
+  .section .left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 60%;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+.section {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+ .section .left {
+   display: none }
+}
+
 
 /* section 2 */
 
